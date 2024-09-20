@@ -1,0 +1,11 @@
+.list_section {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list_section h2 {
+  font-size: 24px;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}

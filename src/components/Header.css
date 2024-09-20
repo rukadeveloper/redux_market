@@ -1,0 +1,53 @@
+header.header {
+  height: 80px;
+  background-color: #000;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+header button {
+  width: 200px;
+  padding: 10px 0;
+  background-color: transparent;
+  border: 1px solid #21ceb7;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header button span {
+  color: #21c3b7;
+}
+
+header button span:first-child {
+  margin-right: 20px;
+  margin-top: 1px;
+}
+
+header button span:last-child {
+  background-color: #21c3b7;
+  color: #000;
+  display: block;
+  padding: 5px 25px;
+  border-radius: 30px;
+}
+
+header button:hover {
+  background-color: #21c3b7;
+}
+
+header button:hover span:first-child {
+  color: #000;
+}
+
+header button:hover span:last-child {
+  border: 1px solid #000;
+}
